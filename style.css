@@ -1,0 +1,212 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.mean header{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* Apply styles to the header */
+header {
+    background-color:orangered;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo img {
+    width: 30px; /* Adjust the width as needed */
+    /* padding-left: 80px; */
+   
+  
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.images{
+    padding-left: 150px;
+  
+}
+.phone{
+  
+    padding-left: 110px;
+   
+}
+.button{
+    height: 30px;
+    width: 140px;
+    margin-left: 130px;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+    color:black;
+
+
+}
+.nav{
+padding-top: 30px;
+    padding-left: 470px;
+    color: azure;
+    height: 0px;
+    padding-bottom: 40px;
+   
+}
+ .content{
+    width: 100%;
+    height: 600px;
+ }
+
+.read more button{
+    margin-left: 120px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+
+
+/* styles.css */
+.image-container {
+    position: relative; /* Make the container a positioned element */
+}
+
+img {
+    max-width: 100%; /* Ensure the image fits within the container */
+}
+
+.text-overlay {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 35%; /* Position it 50% from the top of the container */
+ left: 40%;/* Position it 50% from the left of the container */
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background color for readability */
+    color: white; /* Text color */
+    padding: 10px; /* Add padding for better readability */
+    z-index: 1; /* Ensure the text is above the image (z-index) */
+}
+.read more buttons{
+    margin-left: 20px;
+    margin-top: 80px;
+    
+}
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 90px; /* Adjust the logo size as needed */
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links ul li {
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-info {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+    }
+
+    .footer-links ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
